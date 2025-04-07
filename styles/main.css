@@ -1,0 +1,17 @@
+.navigation {
+    background-color: #150300;
+    padding: 10px;
+    margin: 10px;
+}
+
+ul li {
+    list-style: none;
+     display: inline;
+}
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+.brand, .links {
+    display: incline;
+}
