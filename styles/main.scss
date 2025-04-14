@@ -6,3 +6,39 @@
     margin-right: 5px;
     }
 }
+
+.navigation{
+    background-color: #150300;
+    padding: 10px;
+    margin: 10px;
+    a {
+        color: white;
+    text-decoration: none;
+    }
+}
+
+ul {
+    li {
+        list-style: none;
+        display: inline;
+
+    }
+}
+
+.brand, .links {
+    display: incline;
+}
+.brand {
+    margin-left: 10px;
+}
+.links {
+    float: right;
+    margin: 0;
+}
+.links li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.active {
+    text-decoration: underline !important;
+}
