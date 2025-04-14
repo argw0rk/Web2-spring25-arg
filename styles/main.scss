@@ -1,8 +1,4 @@
-$dark-bg: #150300;
-$white-text: white;
-$orange-text: rgb(255,161,9);
-
-
+@use './partials/colors';
 
 .links {
     float: right;
@@ -14,11 +10,11 @@ $orange-text: rgb(255,161,9);
 }
 
 .navigation{
-    background-color: $dark-bg;
+    background-color: colors.$dark-bg;
     padding: 10px;
     margin: 10px;
     a {
-        color: $white-text;
+        color: colors.$white-text;
     text-decoration: none;
     }
 }
@@ -49,18 +45,18 @@ ul {
     text-decoration: underline !important;
 }
 .footer{
-    background-color: $dark-bg;
+    background-color: colors.$dark-bg;
     a{
-        color: $white-text;
+        color: colors.$white-text;
     }
 }
 h1{
     font-size: 40px;
-    color:$dark-bg;
+    color:colors.$dark-bg;
 }
 p{
     font-size: 40px;
-    color:$orange-text;
+    color:colors.$orange-text;
 }
 p2{
     font-size: 20px;
@@ -68,7 +64,7 @@ p2{
 }
 p3{
      text-decoration: underline;
-     color: $orange-text;
+     color: colors.$orange-text;
 }
 .cafe {
     float: right;
