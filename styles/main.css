@@ -42,4 +42,35 @@ ul li {
 
 .active {
   text-decoration: underline !important;
+}
+
+.footer {
+  background-color: #150300;
+}
+.footer a {
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+  color: #150300;
+}
+
+p {
+  font-size: 40px;
+  color: rgb(255, 161, 9);
+}
+
+p2 {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p3 {
+  text-decoration: underline;
+  color: rgb(255, 161, 9);
+}
+
+.cafe {
+  float: right;
 }/*# sourceMappingURL=main.css.map */
